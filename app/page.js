@@ -16,8 +16,6 @@ const Home = () => {
     notifyOnNetworkStatusChange: true,
   });
 
-  console.log("dsfsdfd", process.env.MONGODB_URI);
-
   return (
     <div className={styles.page}>
       <main className={styles.main}>
