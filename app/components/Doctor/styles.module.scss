@@ -1,0 +1,50 @@
+.searchResultLabel {
+    display: block;
+    margin-bottom: 15px;
+    font-size: .8rem;
+    text-align: center;
+}
+.doctorList {
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px #cecece;
+    background-color: #fff;
+    .doctorCell {
+        padding: 15px;
+        // box-shadow: -5px 12px 10px -5px #cecece, 5px 0 5px -5px #cecece;
+        transition: all .2s ease-in-out;
+        &:hover {
+            cursor: pointer;
+            border-radius: 20px;
+            box-shadow: 1px 5px 10px #cecece;
+            transform: scale(1.1);
+            background-color: #fff;
+        }
+        &:not(:last-child) {
+            border-bottom: 1px solid #eeeeee;
+        }
+        .doctorImage {
+            border-radius: 50%;
+            object-fit: cover;
+            display: block;
+            margin: 0 auto;
+        }
+        .doctorName {
+            font-weight: 600;
+            font-size: 1.2rem;
+        }
+        .doctorField {
+            label {
+                text-transform: uppercase;
+                font-size: 0.8rem;
+                color: #fff;
+                font-weight: 600;
+                background-color: cornflowerblue;
+                padding: 5px 10px;
+                margin: 10px 0;
+                border-radius: 30px;
+                display: inline-block;
+            }
+        }
+    }
+}
+
