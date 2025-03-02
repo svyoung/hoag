@@ -2,9 +2,11 @@
 
 Small projects using NextJS, GraphQL, and MongoDB hosted in Netlify.
 
+Can be viewed on [https://hoag.netlify.app/](https://hoag.netlify.app/)
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Running the app
+### Running the app
 
 First, run the development server:
 
